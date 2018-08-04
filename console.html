@@ -1,5 +1,5 @@
 <script> 
- var numOfFollowers = 30;
+ var numOfFollowers = 29;
  numOfFollowers *= 2;
  console.log(numOfFollowers);
  numOfFollowers--;
@@ -8,4 +8,11 @@
  console.log(numOfFollowers);
  console.log("Even number of followers?")
  console.log(numOfFollowers % 2 == 0);
+ numOfFollowers += Math.random()*48;
+ numOfFollowers /= (0.2*Math.random());
+ numOfFollowers -= Math.random()*(-86);
+ numOfFollowers *= Math.random()*5+5;
+ numOfFollowers = Math.floor(numOfFollowers);
+ console.log("number of followers following various random viral postings:")
+ console.log(numOfFollowers);
 </script>
